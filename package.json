@@ -1,0 +1,31 @@
+{
+  "name": "img-crawler-cli",
+  "version": "0.0.0",
+  "description": "A front-end CLI for img-crawler",
+  "main": "main.js",
+  "dependencies": {
+    "public": "git://github.com/radvieira/img-crawler.git#master",
+    "commander": "~1.1.1",
+    "validator": "~0.4.21"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "keywords": [
+    "crawl",
+    "crawler",
+    "image",
+    "images",
+    "downloader",
+    "graphics",
+    "spider",
+    "img-crawler",
+    "cli"
+  ],
+  "author": "Michael Melo <michael.melo@gmail.com>",
+  "license": "BSD"
+}

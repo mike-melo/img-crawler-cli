@@ -1,3 +1,3 @@
 var cli = require('./lib/cli');
 
-cli();
+cli(process.argv);

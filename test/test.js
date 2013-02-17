@@ -23,7 +23,7 @@ suite('cli', function() {
 			  assert.equal(message, 'Invalid URL');
 		});
 		
-		var argv = [null, 'cli-test', '-u', 'ht://www.google.ca'];
+		var argv = [null, 'cli-test', '-u', 'ht://www.google.ca', '-d', '/somedir'];
 		
 		fixture(argv, consoleObject);
 		done();
@@ -35,7 +35,7 @@ suite('cli', function() {
 //			assert.equal(url, 'http://www.google.ca');  
 //		});
 		
-		var argv = [null, 'cli-test', '-u', 'http://www.google.ca'];
+		var argv = [null, 'cli-test', '-u', 'http://www.google.ca', '-d', '/someurl'];
 		
 		fixture(argv);
 		done();

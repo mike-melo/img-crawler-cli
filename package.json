@@ -4,10 +4,10 @@
   "description": "A front-end CLI for img-crawler",
   "main": "main.js",
   "dependencies": {
-    "public": "git://github.com/radvieira/img-crawler.git#master",
     "commander": "~1.1.1",
     "validator": "~0.4.21",
-    "colors": "~0.6.0-1"
+    "colors": "~0.6.0-1",
+    "img-crawler": "0.0.2"
   },
   "devDependencies": {
     "mocha": "~1.8.1",
